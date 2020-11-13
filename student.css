@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Spartan';
+    height: 3000px;
+}
+.tfc
+{
+    text-transform: capitalize;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h-100
+{
+    height: 100%;
+}
+.justify-content-space-between
+{
+    justify-content: space-between;
+}
+.align-items
+{
+    align-items: center;
+}
+.student
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background-image: url(../Style/img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+.student-text
+{
+    color: rgb(0, 0, 0);
+}
+.student-text h1
+{
+    height: 200px;
+}
+.student-form
+{
+    position: absolute;
+    top: 130px;
+}

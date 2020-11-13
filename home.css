@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Spartan';
+    height: 3000px;
+}
+.tfc
+{
+    text-transform: capitalize;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h-100
+{
+    height: 100%;
+}
+.justify-content-space-between
+{
+    justify-content: space-between;
+}
+.align-items
+{
+    align-items: center;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    background-image: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url('../Style/img/hero-bg.jpg'); 
+    text-align: center;
+}
+.main-text p
+{
+    margin: 25px 0;
+}
